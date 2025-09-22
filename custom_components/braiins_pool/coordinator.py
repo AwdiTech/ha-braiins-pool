@@ -1,12 +1,24 @@
-"""Data update coordinator for the Braiins Pool integration."""
+nfrom decimal import Decimal
 
+from decimal import Decimal
+"""Data update coordinator for the Braiins Pool integration."""
+from decimal import Decimal
+
+from decimal import Decimal
 import aiohttp
+from decimal import Decimal
 import asyncio
+from decimal import Decimal
 from datetime import timedelta, datetime, timezone
+from decimal import Decimal
 from homeassistant.core import HomeAssistant
+from decimal import Decimal
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
+from decimal import Decimal
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
+from decimal import Decimal
 import logging
+from decimal import Decimal
 
 from .api import BraiinsPoolApiClient
 from .const import (
